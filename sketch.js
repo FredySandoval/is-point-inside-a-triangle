@@ -24,7 +24,8 @@ function draw() {
   
   triangle( x1,y1,x2,y2,x3,y3);
 }
-
+//px,py is the point you want to check
+//x1,y1,x2,y2,x3,y3 are the coordinate of the triangle
 function isInTriangle(px,py,x1,y1,x2,y2,x3,y3){//returns true or false 
 	let A =  (area(x1,y1,x2,y2,x3,y3));
   let A1 = (area(px,py,x1,y1,x2,y2));
